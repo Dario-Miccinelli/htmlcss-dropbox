@@ -64,7 +64,7 @@ header a {
 
 .maintext {
   width: 80%;
-  margin: 0rem 24rem;
+  margin: 0rem 23.5rem;
   height: 16rem;
 }
 
@@ -206,12 +206,12 @@ h3 {
 }
 
 #bottom-plan .clearfix {
-    padding: 25px 25px;
+    padding: 1.5rem 1.5rem;
 }
 
 #entreprise {
     float: left;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .text-bottom-plan {
@@ -219,11 +219,79 @@ h3 {
 }
 
 .text-bottom-plan h4 {
-    font-size: 20px;
-    padding-bottom: 30px;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
 }
 
 #bottom-plan .clearfix button {
     float: right;
 }
 
+.find-partner{
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    width: 70%;
+    margin-left: 18rem;
+  }
+  
+  .find-partner img{
+    width: 60%;
+    float: left;
+  }
+  
+  .text-find-partner{
+    width: 40%;
+    float: left;
+    padding: 1.5rem 1rem;
+  }
+  
+  .text-find-partner h3{
+    font-size: 2rem;
+  }
+  
+  .text-find-partner p{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .text-find-partner button a{
+    color: white;
+  }
+  
+  .multitask {
+    width: 70% ;
+    margin: auto;
+    font-size: 1.7rem;
+   
+  }
+
+  .card {
+    width: calc(100% / 3);
+    margin: 2rem;
+    
+    
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-dad{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.card-dad h4, p{
+    text-align: left;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.teamz {
+    width: 70%;
+    margin: auto;
+    margin-top: 13rem;
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+}

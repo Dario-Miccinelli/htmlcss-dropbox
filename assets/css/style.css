@@ -1,101 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800;900&display=swap");
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Noto Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
 }
 
-
 header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 99;
-    left: 0;
-    top: 0;
-    min-height: 65px;
-    align-items: center;
-    background-color: #fff;
-    padding: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  min-height: 65px;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px 0;
 }
 
 header a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-.flexsx , .flexdx {
-    display: flex;
-    align-items: center;
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
-    z-index: 10;
-    
+.flexsx,
+.flexdx {
+  display: flex;
+  align-items: center;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  z-index: 10;
 }
 
-
-.flexsx > div , .flexdx > div{
-    padding: 1rem;
+.flexsx > div,
+.flexdx > div {
+  padding: 1rem;
 }
 
 .bluebotton a {
-    color: white;
-    background-color: #0061ff;
-    text-align: center;
-    padding: 0.6rem;
-    border-radius: 0.5rem;
+  color: white;
+  background-color: #0061ff;
+  text-align: center;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
 }
 /* main  */
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .backgroundsky {
-    background-color: #b4d0e7;
-    padding-top: 3.5rem;
-    margin-top: 4rem; 
-    min-height: 50rem;
+  background-color: #b4d0e7;
+  padding-top: 3.5rem;
+  margin-top: 4rem;
+  min-height: 45.5rem;
 }
 
 .maintext {
   width: 80%;
   margin: 0rem 24rem;
-  height: 16rem;  
+  height: 16rem;
 }
 
-.maintext h1{
-    padding-top: 30px;
-    font-size: 4rem;
-    width: 80%;
-    font-weight: 900;
+.maintext h1 {
+  padding-top: 30px;
+  font-size: 4.3rem;
+  width: 80%;
+  font-weight: 900;
 }
- 
+
 .sx {
-    width: 24%;
-    float:left;
-    margin-left: 24rem;
-    font-size: 1.4rem;
-    line-height: 2rem;
-
+  width: 24%;
+  float: left;
+  margin-left: 24rem;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
 }
 .dx {
-    width: 45%;
-    float: right;
-    margin-right: 11rem;
+  width: 45%;
+  float: right;
+  margin-right: 10rem;
 }
 
-.dx img{
-    width:100%; 
+.dx img {
+  width: 100%;
 }
 
 .btnblue {
-    border: 0px;
-    padding: 1.2rem;
-    background-color: #0061ff;
-    color: white;
-    font-size: 1.2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
+  border: 0px;
+  padding: 1.2rem;
+  background-color: #0061ff;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
+.fa-arrow-down {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: black;
+  padding-top: 1rem;
+}
+
+.businessplan {
+  width: 70%;
+
+  margin: 7rem auto 3rem;
+}
+
+.trovapiano {
+  margin-bottom: 2rem;
+}
+
+.colonnepiani {
+  display: flex;
+  margin-top: 3rem;
+}
+
+#professional-plan , #advanced-plan{
+  margin-right: 5%;
+}
+
+.piani aside {
+  float: left;
+  width: 33%;
+  min-height: 900px;
+  border: 1px solid #dedfe1;
+}
+
+.piani ul {
+  list-style: none;
+}
+
+.topaside {
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #dedfe1;
+  padding: 7px 0;
+}
+
+.mainaside {
+  padding: 1.5rem 1.5rem;
+}
+
+.mainaside ul,
+li {
+  padding: 1rem 0rem;
+}
+
+.mainaside h3 {
+  font-size: 2rem;
+}
+
+.mainaside h4,
+h5,
+h3 {
+  padding: 1rem 0rem;
+}
+
+
+
+.btnaside {
+  background-color: #0061ff;
+  outline: none;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px #0061ff;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.btnaside a {
+  text-decoration: none;
+  color: white;
+}
+
+.hr-line {
+  width: 25%;
+  border-bottom: solid 2px #c5c5c5;
+  margin: 20px 0;
+}
+
+.buy-now {
+  padding: 2rem 0rem;
+}
+
+.fa-check {
+    color: blue;
+    font-size: 1.3rem;
+}
+
+#bottom-plan {
+    width: 70%;
+    border: solid 1px #DEDFE1;
+    margin-top: 40px;
+    margin-left: 22rem;
+}
+
+#bottom-plan .clearfix {
+    padding: 25px 25px;
+}
+
+#entreprise {
+    float: left;
+    font-size: 30px;
+}
+
+.text-bottom-plan {
+    padding: 1.5rem 1.5rem;
+}
+
+.text-bottom-plan h4 {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+#bottom-plan .clearfix button {
+    float: right;
+}
 

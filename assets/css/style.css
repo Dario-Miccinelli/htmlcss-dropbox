@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800;900&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -13,7 +16,7 @@ header {
     z-index: 99;
     left: 0;
     top: 0;
-    min-height: 60px;
+    min-height: 65px;
     align-items: center;
     background-color: #fff;
     padding: 15px 0;
@@ -45,20 +48,54 @@ header a {
     padding: 0.6rem;
     border-radius: 0.5rem;
 }
+/* main  */
 
 .backgroundsky {
     background-color: #b4d0e7;
-    margin-top: 60px;
-    padding: 3rem 0;
-    min-height: 35rem;
-    align-items: center;
-   
+    padding-top: 3.5rem;
+    margin-top: 4rem; 
+    min-height: 50rem;
 }
 
-.container h1 {
-    text-align: center;
-    font-size: 5rem;
-    text-align: left;
-    width: 60%;
-    margin: 30px 100px;
+.maintext {
+  width: 80%;
+  margin: 0rem 24rem;
+  height: 16rem;  
 }
+
+.maintext h1{
+    padding-top: 30px;
+    font-size: 4rem;
+    width: 80%;
+    font-weight: 900;
+}
+ 
+.sx {
+    width: 24%;
+    float:left;
+    margin-left: 24rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+
+}
+.dx {
+    width: 45%;
+    float: right;
+    margin-right: 11rem;
+}
+
+.dx img{
+    width:100%; 
+}
+
+.btnblue {
+    border: 0px;
+    padding: 1.2rem;
+    background-color: #0061ff;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+

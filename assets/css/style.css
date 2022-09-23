@@ -177,6 +177,7 @@ h3 {
   border: solid 1px #0061ff;
   padding: 0.8rem;
   font-size: 0.8rem;
+  color: white;
 }
 
 .btnaside a {
@@ -410,3 +411,66 @@ p {
   margin-left: 3rem;
   padding: 0.5rem 1rem;
 }
+
+.questioncontainer {
+  width: 50%;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.question {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.question2 h4 , h2{
+  padding: 2.7rem;
+}
+
+.fa-chevron-down {
+  float: right;
+}
+
+.finalfootcontainer {
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 5rem;
+  
+  
+}
+
+.footul {
+  width: calc(100vw/5);
+  margin: 5rem;
+}
+
+.footul a {
+  text-decoration: none;
+  color: white;
+}
+
+.footul ul {
+  list-style-type: none;
+}
+
+.footul h3 {
+  font-size: 1.5rem;
+}
+
+.final {
+  padding: 1rem 1rem;
+  display: flex;
+  margin: auto;
+}
+
+.fine {
+  width: 25%;
+  margin: 0rem 6rem;
+}
+
+.fine hr {
+  margin-bottom: 1.5rem;
+}
+

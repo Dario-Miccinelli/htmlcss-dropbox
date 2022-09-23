@@ -47,12 +47,13 @@ header a {
   padding: 0.6rem;
   border-radius: 0.5rem;
 }
+
 /* main  */
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .backgroundsky {
@@ -82,6 +83,7 @@ header a {
   font-size: 1.3rem;
   line-height: 1.6rem;
 }
+
 .dx {
   width: 45%;
   float: right;
@@ -124,7 +126,8 @@ header a {
   margin-top: 3rem;
 }
 
-#professional-plan , #advanced-plan{
+#professional-plan,
+#advanced-plan {
   margin-right: 5%;
 }
 
@@ -165,8 +168,6 @@ h3 {
   padding: 1rem 0rem;
 }
 
-
-
 .btnaside {
   background-color: #0061ff;
   outline: none;
@@ -194,104 +195,192 @@ h3 {
 }
 
 .fa-check {
-    color: blue;
-    font-size: 1.3rem;
+  color: blue;
+  font-size: 1.3rem;
 }
 
 #bottom-plan {
-    width: 70%;
-    border: solid 1px #DEDFE1;
-    margin-top: 40px;
-    margin-left: 18rem;
+  width: 70%;
+  border: solid 1px #dedfe1;
+  margin-top: 40px;
+  margin-left: 18rem;
 }
 
 #bottom-plan .clearfix {
-    padding: 1.5rem 1.5rem;
+  padding: 1.5rem 1.5rem;
 }
 
 #entreprise {
-    float: left;
-    font-size: 2rem;
+  float: left;
+  font-size: 2rem;
 }
 
 .text-bottom-plan {
-    padding: 1.5rem 1.5rem;
+  padding: 1.5rem 1.5rem;
 }
 
 .text-bottom-plan h4 {
-    font-size: 1.2rem;
-    padding-bottom: 2rem;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
 }
 
 #bottom-plan .clearfix button {
-    float: right;
+  float: right;
 }
 
-.find-partner{
-    margin-top: 8rem;
-    margin-bottom: 6rem;
-    width: 70%;
-    margin-left: 18rem;
-  }
-  
-  .find-partner img{
-    width: 60%;
-    float: left;
-  }
-  
-  .text-find-partner{
-    width: 40%;
-    float: left;
-    padding: 1.5rem 1rem;
-  }
-  
-  .text-find-partner h3{
-    font-size: 2rem;
-  }
-  
-  .text-find-partner p{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
-  
-  .text-find-partner button a{
-    color: white;
-  }
-  
-  .multitask {
-    width: 70% ;
-    margin: auto;
-    font-size: 1.7rem;
-   
-  }
+.find-partner {
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+  width: 70%;
+  margin-left: 18rem;
+}
 
-  .card {
-    width: calc(100% / 3);
-    margin: 2rem;
-    
-    
+.find-partner img {
+  width: 60%;
+  float: left;
+}
+
+.text-find-partner {
+  width: 40%;
+  float: left;
+  padding: 1.5rem 1rem;
+}
+
+.text-find-partner h3 {
+  font-size: 2rem;
+}
+
+.text-find-partner p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.text-find-partner button a {
+  color: white;
+}
+
+.multitask {
+  width: 70%;
+  margin: auto;
+  font-size: 1.7rem;
+}
+
+.card {
+  width: calc(100% / 3);
+  margin: 2rem;
 }
 
 .card img {
-    width: 100%;
+  width: 100%;
 }
 
-.card-dad{
-    display: flex;
-    width: 70%;
-    margin: auto;
+.card-dad {
+  display: flex;
+  width: 70%;
+  margin: auto;
 }
 
-.card-dad h4, p{
-    text-align: left;
-    line-height: 1.5rem;
-    font-size: 0.9rem;
+.card-dad h4,
+p {
+  text-align: left;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
 }
 
 .teamz {
-    width: 70%;
-    margin: auto;
-    margin-top: 13rem;
-    font-size: 1.5rem;
-    margin-bottom: 10rem;
+  width: 70%;
+  margin: auto;
+  margin-top: 13rem;
+  font-size: 1.5rem;
+  margin-bottom: 10rem;
+}
+
+.card-container-bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 35rem;
+  
+}
+
+.sxbottom,
+.dxbottom,
+.midbottom {
+  flex-wrap: wrap;
+  display: flex;
+  width: calc(100vw/3);
+}
+
+.fleximg {
+  flex-basis: 50%;
+  height: 10rem;
+  padding: 0rem;
+  
+}
+
+.fleximg img {
+  height: 100%;
+  width: 100%;
+  padding: 3rem;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(103%) contrast(101%);
+}
+
+.greenbox {
+  background-color: #a2d39b;
+}
+
+.redbox {
+  background-color: red;
+}
+
+.bordeauxbox {
+  background-color: #9b0032;
+}
+
+.lightbox {
+  background-color: #14c8eb;
+}
+
+
+.lightbluebox {
+  background-color: #b4c8e1;
+}
+
+.bluebox {
+  background-color: #283750;
+}
+
+.yellowbox {
+  background-color: #fad24b;
+  
+}
+
+.midbottom {
+  background-color: lightgrey;
+}
+.midbottom img{
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.boxheight {
+  height: 50%;
+  padding: 3.5rem;
+}
+
+.midimg {
+  float: left;
+  margin-left: 2.5rem;
+  height: 10%;
+}
+
+.hrbot {
+  margin-top: 1.5rem;
+  width: 30%;
+  margin-left: 2rem;
+}
+
+.botmidtext {
+  width: 70%;
+  margin-left: 4rem;
+  margin-top: -1rem;
 }

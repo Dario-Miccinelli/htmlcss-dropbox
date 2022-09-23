@@ -380,7 +380,33 @@ p {
 }
 
 .botmidtext {
+  font-size: 1.2rem;
   width: 70%;
   margin-left: 4rem;
-  margin-top: -1rem;
+  margin-top: 1rem;
+}
+
+.bluefooter {
+  display: flex;
+  width: 100%;
+  background-color: #B4D0E7;
+  font-size: 2rem;
+  height: 25rem;
+  color: #8e002d;
+  
+}
+
+.col1foot{
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+}
+
+.col2foot button {
+  margin-top: 1.5rem;
+  border: 1px solid transparent;
+  width: 20rem;
+  margin-left: 3rem;
+  padding: 0.5rem 1rem;
 }
